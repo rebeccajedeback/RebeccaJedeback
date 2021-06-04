@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+  <teiHeader xml:lang="SWE">
+      <fileDesc>
+         <titleStmt>
+            <title>Tratado práctico elemental de arquitectura ó estudio de los cinco órdenes, <lb/>
+               en elektronisk utgåva av utvalda sidor. En elektronisk version.</title>
+            <author>
+               <persName>Giacomo Barozzi da Vignola (1507-1573)
+               </persName>
+                  </author>
+            <respStmt>
+               <name>Rebecca Jedebäck</name>
+               <resp>Skapare av denna maskinläsbara version. Redigering och konvertering till TEI-markup.</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p><date when="2021-06-01">6 Juni, 2021</date></p>
+         </publicationStmt>
+         <notesStmt>
+            <note>Transkriberad från originaldokumentet</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Tratado práctico elemental de arquitectura ó estudio de los cinco órdenes</title>
+                  <author>
+                     <persName>Giacomo Barozzi da Vignola (1507-1573)</persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>Edicion Argentina</edition>
+               </editionStmt>
+               <extent>147 sidor</extent>
+               <publicationStmt>
+                  <publisher>Construcciones Sudamericanas. Buenos Aires</publisher>
+                  <address>
+                     <addrLine>AVDA. DE MAYO 570</addrLine>
+                  </address>
+                  <pubPlace>Buenos Aires</pubPlace>
+                  <date when="1955">1955</date>
+                  <idno type="URL">http://biblioteca.fadu.uba.ar/oai/libros/AAQ00000958</idno>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>Digitalisering, beskrivning och kodning skapad för projektarbete under kursen 32LDK1,<lb/>
+              Digitising Cultural Heritage Material, Högskolan i Borås, 2021.</p>
+        </projectDesc>
+        <editorialDecl>
+           <correction status="high" method="silent">
+              <p>Texten har skapats från TIFF-filer via OCR-skanningsappen Tesseract med dpi på 300.<lb/>
+                 Kodningen följer riktlinjerna för TEI P5.</p>
+              <p>De fel som uppstod vid OCR-skanningen korrigerades manuellt i samband med genomläsning av txt-filerna<lb/>
+                 och jämfördes med orginaldokumenten, felprocenten var låg.</p>
+           </correction> 
+           <hyphenation>
+              <p>Avstavningen i slutet av raden och alla andra bindestreck har behållits.</p>
+           </hyphenation>
+           <quotation>
+              <p>Ingen konvertering har gjorts, alla ursprungliga tecken har behållits.</p>
+           </quotation>
+           <interpretation>
+              <p>Författarens efternamn Vignola har i denna översättning till spanska översatts till Viñola.</p>
+              <p>Namn är markerade som name</p>
+              <p>Geografiska platser som städer eller kardinaler är markerade som: placeName.</p>
+              <p>Personnamn är markerade som: persName</p>
+              <p>De beksrivningar av längder som görs är markerade som: unite type="lenght" unit="m".</p>
+              <p>Folkgrupp är markerade som: name= "role" type= "group"</p>
+           </interpretation>
+        </editorialDecl>
+        <refsDecl>
+           <p>Endast ett urval av sidor från det fysiska manifestet har märkts upp. Därför är varje sida en separat division markerad som div "type = "page" n = "4".<lb/>
+              Att skala och märka upp hela denna bok skulle kräva ett större planeringsarbete för att få arbetet att flyta på mer effektivt, användningen av ex. "div" hade<lb/>
+              vid ett uppskalat projekt troligen ifrågasatts.<lb/></p>
+        </refsDecl>
+        <classDecl>
+           <taxonomy source="lc">
+              <bibl>Library of Congress Classification</bibl>
+           </taxonomy>
+           <taxonomy source="lcsh">
+              <bibl>Library of Congress Subject Headings</bibl>
+           </taxonomy>
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="ES">Spanska</language>
+        </langUsage>
+        <textClass>
+           <classCode scheme="lc">NA2810</classCode>
+           <classCode scheme="lcsh">Architecture</classCode>
+           <keywords>
+              <list>
+                 <item>Historia</item>
+                 <item>Arquitectura</item>
+                 <item>Dibujo arquitectonico</item>
+                 <item>Cinco Ordenes</item>
+                 <item>el Toscano</item>
+                 <item>el Dórico</item>
+                 <item>el Jónico</item>
+                 <item>el Cirinito</item>
+                 <item>el Compuesto</item>
+                 <item>Roma</item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+  </teiHeader>
+   <facsimile>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida5.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida27.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida71.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida73.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida75.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida95.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida97.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida99.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida119.jpg"></graphic>
+      <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida131.jpg"></graphic>   
+   </facsimile>
+  <text>
+     <front>
+        <titlePage rend="text-align: center">
+           <!-- Försättsblad.jpg -->
+           
+           <docAuthor>VIÑOLA</docAuthor><lb/>
+           <docTitle>
+              <titlePart type="main">TRATADO PRÁCTICO ELEMENTAL 
+                 DE ARQUITECTURA </titlePart><lb/>
+              <titlePart type="alt">Ó<lb/>
+                    ESTUDIO DE LOS CINCO ORDENES</titlePart><lb/>
+           </docTitle> <byline>SEGÚN</byline><docAuthor>J. B. DE VIÑOLA</docAuthor><lb/>
+                <argument>
+                   <p>OBRA DIVIDIDA EN SETENTA Y DOS LÁMINAS<lb/>
+                 QUE COMPRENDEN LOS CINCO ORDENES<lb/>
+                 
+                 CON INDICACION DE LAS SOMBRAS NECE SARIAS PARA EL LAVADO, LA DELINEACION<lb/>
+                 DE LAS FACHADAS, ETC. Y CON MODELOS RELATIVOS A LAS ORDENES<lb/>
+                 
+                 COMPUESTO, DIBUJADO Y ORDENADO<lb/>
+                 
+                 POR <name>J. A. LÉVEIL</name>, ARQUITECTO<lb/>
+                      ANTIGUO PENSIONADO DEL REY EN <placeName>ROMA</placeName><lb/>
+                </p></argument>
+           <docEdition>EDICION ARGENTINA</docEdition><lb/>
+                 
+           <argument>
+             <p>EDITORTAL</p></argument><lb/>
+           <docImprint>
+              <publisher>“CONSTRUCCIONES SUDAMERICANAS”</publisher><lb/>
+           <pubPlace>
+              <name type="street"></name>AVDA. DE MAYO 570</pubPlace><lb/>
+                 
+              <pubPlace>
+                 <name type="city"></name>Buenos Aires</pubPlace><lb/>
+                </docImprint>  
+        </titlePage>
+     </front>
+      <body >
+         <div type="page" n="4">
+            <!-- Sida.4.jpg -->
+         <p>
+            Paralelo de los cinco Ordenes de<lb/>
+            Arquitectura.<lb/>
+            
+            Esta lámina presenta el paralelo de los cinco Ordenes de Arqui-<lb/>
+            tectura según <persName>Viñola</persName>, a saber: el Toscano, el Dórico, el Jónico, el<lb/>
+            Corintio y el Compuesto. El Dórico, el Jónico y el Corintio traen su<lb/>
+            origen de <name role="los Griegos" type="group">los Griegos</name>, y los otros dos, de <name role="los Romanos" type="group">los Romanos</name>. Generalmente<lb/>
+            en la Arquitectura no hay más que tres Órdenes, porque el Toscano<lb/>
+            puede considerarse como un Dórico simplificado, y el Compuesto,<lb/>
+            como un Corintio, que es el resultado del capricho de los innovadores<lb/>
+            que quisieron en <placeName>Roma</placeName> sobrepujar a <name role="los Griegos" type="group">los Griegos</name>. Habiendo dividido<lb/>
+            la línea de altura en 32 partes, y siendo esta parte considerada como<lb/>
+            el módulo, hacemos ver la proporción que los: Órdenes tienen entre sí.<lb/>
+            El Toscano, el Dórico y el Jónico tienen las mismas proporciones re-<lb/>
+            lativas, como se ve por las líneas AA, BB, CC; es decir, que en estos<lb/>
+            tres Órdenes el pedestal ocupa 1/3 de la columna, y el cornisamien-<lb/>
+            to 1/4. En los Órdenes Corintio y Compuesto Viñola cambió esta pro-<lb/>
+            porción, puesto que, conservando al cornisamiento 1/4 de la altura de<lb/>
+            Ja columna, ha dado al pedestal 1/3 de “módulo más de altura con el<lb/>
+            objeto de hacer aun más elegantes estos Órdenes; así, el pedestal, en<lb/>
+            lugar de tener <unit type="length" unit="m">6 m</unit>. 2/3 de altura, como convendría siguiendo la<lb/>
+            misma proporción indicada para los tres primeros Órdenes, y en 18<lb/>
+            respecto de los tres últimos.<lb/></p>
+            </div>
+         <div type="page" n="26">
+               <!-- Sida.26.jpg -->
+            <p>
+               Modelo de un pórtico del Orden Toscano coronado<lb/>
+               con un frontis.<lb/>
+               
+               - Presentamos aquí, para complemento del Orden Toscano, un mo-<lb/>
+               delo de un pórtico coronado con un frontis. Este pórtico, hecho se-<lb/>
+               gún las reglas establecidas por Vitruvio para los templos toscanos<lb/>
+               ha sido rectificado sin embargo siguiendo las proporciones y las me-<lb/>
+               didas dadas por <name>Viñola</name>. Puede usarse de él en las entradas de vestí-<lb/>
+               bulos, de monumentos sencillos, como casas de ayuntamiento, mer-<lb/>
+               cados, cuerpos de guardia, etc., etc. El frontis tiene siempre la mis-<lb/>
+               ma altura que en los detalles dados en la lámina precedente, estando<lb/>
+               siempre determinado por el cuarto de círculo A B OC, y por la otra<lb/>
+               parte del círculo'A E A” que fija su altura en el punto E (según el<lb/>
+               medio hallado por Serlio). Nos pareció conveniente colocar en el vér-<lb/>
+               tice del frontis una estatua y un grifo en cada uno de los ángulos;<lb/>
+               pero estos adornos pueden variarse según los atributos relativos al<lb/>
+               monumento que se construya con este pórtico.<lb/></p>
+         </div>
+         <div type="page" n="70">
+            <!-- Sida.70.jpg -->
+            <p>
+               Estudio de sombra de capitel del<lb/>
+               Orden Jónico.<lb/>
+               
+               Esta lámina tiene por objeto determinar las sombras del capitel<lb/>
+               jónico, visto de frente, para obtener las sombras de la voluta sobre<lb/>
+               la caña de la columna y sobre los miembros circulares del capitel.<lb/>
+               
+               Para determinar esta sombra, ha sido preciso dividir primero<lb/>
+               el plano del cojinete en un cierto número de secciones m, n. paralelas<lb/>
+               a la cara de la voluta, obtener en seguida en la elevación las curvas<lb/>
+               m', m'', m''', que son las proyecciones verticales de estas secciones,<lb/>
+               indicar sobre estas proyecciones los puntos t', t'',t''' de tangencia<lb/>
+               de los rayos de luz, y bajarlos después sobre el plano.<lb/>
+               
+               Se trazará sobre el faldón de la voluta una serie de puntos, a, b,<lb/>
+               c. d, e, correspondientes a los principales de su elevación.<lb/>
+               
+               Entonces, dirigiendo en plano por todos estos puntos, sobre el<lb/>
+               cuerpo de la columna y los otros miembros, los radios aa, bb, etc....<lb/>
+               tt, tt'', etc.... y sus correspondientes indefinidos en elevación, no<lb/>
+               faltará más que determinar la longitud de estos últimos para trazar<lb/>
+               por sus extremidades los límites de la sombra buscada.<lb/>
+            </p>
+         </div>
+         <div type="page" n="72">
+            <!-- Sida.72.jpg -->
+            <p>
+               Estudio de sombra del capitel del Orden<lb/>
+               Jónico visto de perfil.<lb/>
+               
+               Esta lámina representa la cara lateral de un capitel jónico con<lb/>
+               los estudios relativos a la sombra producida por el cojinete sobre la<lb/>
+               caña de la columna.<lb/>
+               
+               Como los límites de esta sombra producida se componen de la<lb/>
+               expresión de los faldones de la voluta y de la cintura, así como de la<lb/>
+               sombra propia del cojinete, ha sido preciso trazar separadamente,<lb/>
+               las curvas de los faldones para obtener en plano las proyecciones ho-<lb/>
+               rizentales y en elevación las proyecciones verticales de sus principa-<lb/>
+               les puntos, como igualmente los de la sombra propia del cojinete, se-<lb/>
+               gún está indicado con guarismos, Además, la ejecución de este estu-<lb/>
+               dio es la misma que la del precedente.<lb/>               
+            </p>
+         </div>
+         <div type="page" n="74">
+            <!-- Sida.74.jpg -->
+            <p>
+               Pedestal y base del Orden Corintio<lb/>
+               
+               El módulo de este Orden se divide, como el del Orden Jónico,<lb/>
+               en <unit type="partes" unit="minutos">18 partes o minutos</unit>. <name>Viñola</name> hace en este Orden una excepción a su<lb/>
+               regla general que previene que el pedestal debe tener siempre de al-<lb/>
+               tura el tercio de la columna, porque esta medida sería de una propor-<lb/>
+               ción demasiado pesada para este Orden, que es el más esbelto de to-<lb/>
+               dos. Aconseja por lo mismo que se le den 7 módulós de altura, for-<lb/>
+               mando de este modo el dado del pedestal dos cuadriláteros sobrepues-<lb/>
+               tos. Sin embargo, se podrá elevar alguna vez el plinto de la base del<lb/>
+               pedestal y darle 8 partes en lugar de 4. — La base de la columna es<lb/>
+               la dada por Viñola; pero los antiguos se han servido muchas veces<lb/>
+               en su lugar de la base llamada ática, cuyas molduras tienen una pro-<lb/>
+               porción más graciosa.<lb/>
+            </p>
+         </div>
+         <div type="page" n="94">
+            <!-- Sida.94.jpg -->
+            <p>
+               Estudios de sombras del vaso del capitel corintio<lb/>
+               y de un frontis con modillones.<lb/>
+               <figure>
+                  <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida95.jpg"></graphic>
+               </figure>
+               La <figure n="1"> 
+                  <head>fig. 1</head>
+               </figure> representa el estudio de las sombras propias del abaco<lb/>
+               de un capitel corintio, y el de las sombras producidas por dicho abaco<lb/>
+               sobre el cuerpo del capitel o vaso. Estudiando, por una serie de divi-<lb/>
+               siones verticales a, b, paralelas a la dirección de la luz, el efecto de<lb/>
+               estos rayos sobre cada una de sus divisiones, se obtendrá la determi-<lb/>
+               La <figure n="2">
+                  <head>fig. 2</head>
+               </figure> es la expresión general de la sombra de la cornisa con<lb/>
+               modillones de un frontis, en la cual todas las líneas a' b' e' d', deben<lb/>
+               ser iguales a los rayos elementales a, b, e, d.<lb/>
+            </p>
+         </div>
+         
+         <div type="page" n="96">
+            <!-- Sida.96.jpg -->
+            <p>
+               Estudios de sombras del capitel y del modillón del<lb/>
+               Orden Corintio.<lb/>
+               Para determinar la sombra del capitel corintio, es preciso estu-<lb/>
+               diar aisladamente la sombra de cada uno de sus adornos, lo que nos<lb/>
+               hará obtener su conocimiento exacto. Con tal estudio, hemos logrado<lb/>
+               dibujar nuestra <figure n="3">
+                  <head>fig. 1</head>
+               </figure>. Repetimos que siendo demasiado reducido el<lb/>
+               <figure>
+                  <graphic url="H%C3%B6ger-Ark/H%C3%B6ger-Ark-JPG/Sida97.jpg"></graphic>
+               </figure>
+               plan de nuestro tratado elemental, no podemos entrar en grandes<lb/>
+               detalles.<lb/>
+
+               La <figure n="4">
+                  <head>fig. 2</head>
+               </figure> es un estudio particular de la sombra dada al friso por<lb/>
+               uno de los modillones de la cornisa corintia.<lb/>               
+            </p>
+         </div>
+         <div type="page" n="98">
+            <!-- Sida.98.jpg -->
+            <p>
+               Modelo del Orden Corintio, templo de<lb/>
+               <placeName>Antonio y Faustina</placeName> en <placeName>Roma</placeName>.<lb/>
+               
+               Damos como modelo, y para complemento del Orden Corintio,<lb/>
+               el plano y la fachada del templo de <placeName>Antonio y Faustina</placeName> en <placeName>Roma</placeName>.<lb/>
+               Este templo, como casi todos los de. <placeName>Roma</placeName>, es de mármol, y tiene<lb/>
+               un frontis adornado con grifos de una rara hermosura como escul-<lb/>
+               tura monumental. Aconsejamos a los alumnos que, a medida que ade-<lb/>
+               lanten en los estudios de la Arquitectura, estudien bien los monu-<lb/>
+               mentos antiguos y comparen sus diversas proporciones, a fin de po-<lb/>
+               der aplicarlas más adelante, con acierto, a los modernos.<lb/>
+            </p>
+         </div>
+         <div type="page" n="118">
+            <!-- Sida.118.jpg -->
+            <p>
+               Templo de Vesta en <placeName>Roma</placeName>.<lb/>
+               
+               No habiendo indicado hasta ahora la Arquitectura más que bajo<lb/>
+               un solo punto de vista, es decir, haciendo conocer solamente los mo-<lb/>
+               numentos rectilíneos, hemos creído conveniente dar en esta lámina<lb/>
+               un modelo de los monumentos circulares. Sentimos que la poca ex-<lb/>
+               tensión de nuestro tratado de Arquitectura no nos permita hacer co-<lb/>
+               nocer muchos de estos monumentos. Así, hemos escogido para modelo<lb/>
+               el templo conocido vulgarmente bajo el nombre de Vesta, aunque la<lb/>
+               mayor parte de los anticuarios reconozcan positivamente en su<lb/>
+               restos el templo de <placeName>Hércules Vencedor</placeName>. Este templo es períptero, y<lb/>
+               está elevado sobre un basamento de 10 gradas o escalones, y rodeado<lb/>
+               de un pórtico de 20 columnas acanaladas, de Orden Corintio, que<lb/>
+               se aproxima por su estilo al Orden Griego.<lb/>               
+            </p>
+         </div>
+         <div type="page" n="130">
+            <!-- Sida.130.jpg -->
+            <p>
+               Puerta de entrada del palacio de Caprarola.<lb/>
+               
+               Esta puerta, ejecutada por <name>Viñola</name> a la entrada del palacio del<lb/>
+               cardenal <placeName>Farnesio en Caprarola</placeName>, está dispuesta de manera que ha-<lb/>
+               ga arimez en la fachada con un saledizo de cerca de un módulo. Las<lb/>
+               pilastras están cubiertas con 13 piedras con divisiones que no per-<lb/>
+               miten percibir más que las bases y capiteles de ellas, las cuales tie-<lb/>
+               nen 8 diámetros de altura. La llave y dos claves del arco penetran<lb/>
+               en el cornisamento, el cual tiene la cuarta parte de altura de la co-<lb/>
+               lumna y está adornado de triglifos y de mutulos. Un ático que sirve<lb/>
+               de apoyo al primer piso, y en donde están colocadas las armas del<lb/>
+               cardenal <placeName>Farnesio</placeName>, termina el coronamiento de esta puerta. — El<lb/>
+               árco tiene de altura dos veces su ancho, y está cerrado en la parte<lb/>
+               cimbrada con una especie de rastrillo.<lb/>               
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

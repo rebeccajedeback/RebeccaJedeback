@@ -1,0 +1,22 @@
+Estudio de sombra de capitel del
+Orden Jónico.
+
+Esta lámina tiene por objeto determinar las sombras del capitel
+jónico, visto de frente, para obtener las sombras de la voluta sobre
+la caña de la columna y sobre los miembros circulares del capitel.
+
+Para determinar esta sombra, ha sido preciso dividir primero
+el plano del cojinete en un cierto número de secciones m, n. paralelas
+a la cara de la voluta, obtener en seguida en la elevación las curvas
+m', m'', m''', que son las proyecciones verticales de estas secciones,
+indicar sobre estas proyecciones los puntos t', t'',t''' de tangencia
+de los rayos de luz, y bajarlos después sobre el plano.
+
+Se trazará sobre el faldón de la voluta una serie de puntos, a, b,
+c. d, e, correspondientes a los principales de su elevación.
+
+Entonces, dirigiendo en plano por todos estos puntos, sobre el
+cuerpo de la columna y los otros miembros, los radios aa, bb, etc....
+tt, tt'', etc.... y sus correspondientes indefinidos en elevación, no
+faltará más que determinar la longitud de estos últimos para trazar
+por sus extremidades los límites de la sombra buscada.
